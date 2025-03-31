@@ -1,0 +1,25 @@
+Version: 1.0
+ProjectId: fcf33fd4-8866-4e2e-b8fa-e6d078668deb
+
+RestoreWorkspace: No
+SaveWorkspace: No
+AlwaysSaveHistory: Default
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+RootDocument: MoMA.Rproj
+
+AutoAppendNewline: Yes
+StripTrailingWhitespace: Yes
+LineEndingConversion: Posix
+
+BuildType: Package
+PackageUseDevtools: Yes
+PackageInstallArgs: --no-multiarch --with-keep.source
+PackageBuildArgs: R CMD Rd2pdf "C:/Users/usuario/Documents/Materias Universidad/AMTV/MoMA"
+PackageRoxygenize: rd,collate,namespace
